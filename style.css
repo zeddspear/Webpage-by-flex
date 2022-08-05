@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Head styling start */
+
+.hero{
+    background-color: #1F2937;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head ul{
+    display: flex;
+    list-style: none;
+}
+
+.head ul li {
+    margin: 10px;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+
+.head h3{
+    font-size: 25px;
+    color: #F9FAF8;
+   
+}
+
+.image img{
+    width: 22em;
+    height: 13em;
+    border-radius: 10px;
+    
+  
+}
+
+.head-bottom div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5em;
+
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.head-bottom p {
+    margin-bottom: 10px;
+    color: #E5E7EB;
+}
+
+.head-bottom button {
+
+    font-size: 20px;
+    padding: 5px;
+    width: 30%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.head-bottom{
+    padding: 5em;
+    display: flex;
+    justify-content: space-around ; 
+    align-items: center;
+    
+}
+
+/* head style end*/
+
+/* content style start */
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 15em;
+    height: 10em;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    padding: none;
+    margin-top: 50px;
+}
+
+.content ul span {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: grey;
+}
+
+
+.Thor{
+    margin-top: 5em;
+    font-size: 22px;
+}
+
+.thor-back{
+    background-color: #E5E7EB;
+    padding: 0 500px 100px 500px;
+}
+
+.Thor p {
+    color: rgb(100, 100, 100);
+}
+
+.Thor span {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+
+
+
+.body > div:first-child p {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+   color:  #1F2937;
+}
+
+.bottom-button{
+    background-color: #3882F6;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-button button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #E5E7EB;
+}
+
+/* Content style end */
+
+
+
+/* foot style start */
+
+
+
+
+
+.foot{
+    background-color: #1F2937;
+    color: grey;
+    text-align: center;
+    padding: 30px;
+}
+
+/* foot style end */
+
+
+
+
+
+
+
